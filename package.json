@@ -4,7 +4,9 @@
   "description": "ddde",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+    ,
+    "open": "npx serve src/front"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
     "url": "https://github.com/ken5ama/training.js/issues"
   },
   "homepage": "https://github.com/ken5ama/training.js#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^26.6.3"
   }
 }
